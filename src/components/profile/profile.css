@@ -39,6 +39,23 @@
 .btn.projects { background-color: #f44336; } /* Red */
 .btn.contact { background-color: #29b6f6; } /* Light blue */
 
+button > a {
+    text-decoration: none;  /* Removes the underline from the links */
+    color: white;            /* Sets the text color */
+    margin: 0 10px;         /* Provides spacing between the links */
+    font-size: 18px;        /* Set the font size */
+    display: inline-block;  /* Allows transform to work properly */
+    transition: transform 0.1s ease; /* Smooth transition for scaling */
+    transform-origin: center; /* Ensures the scaling is centered */
+}
+
+/* Changes when hovering over the links */
+button > a:hover {
+    transform: scale(1.1); /* Scales up the font size by 10% */
+    /* Optional: Add a font-weight change if you want it bolder */
+    font-weight: bold;
+}
+
 @media (max-width: 600px) {
     .profile-container {
         flex-direction: column; /* Stack sections vertically on small screens */

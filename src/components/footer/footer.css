@@ -1,11 +1,13 @@
 .footer {
 
-    color: #333; /* Dark text for readability */
+    color: white; /* Dark text for readability */
+    background-color: #333; /* Dark text for readability */
     padding: 20px 50px; /* Padding around the content */
     display: flex;
     justify-content: space-between; /* Space content evenly */
     align-items: center;
     font-size: 16px;
+    margin-top: 40px;
 }
 
 .footer-content {
@@ -24,7 +26,7 @@
 .footer-section h4 {
     margin: 0 0 5px 0; /* No margin around headings */
     font-size: 18px;
-    color: #000; /* Black color for headings */
+    color: white; /* Black color for headings */
 }
 
 .footer-section p, .footer-section a {
@@ -32,7 +34,7 @@
 }
 
 .footer-section a {
-    color: #333; /* Dark color for links */
+    color: white; /* Dark color for links */
     text-decoration: none; /* No underline */
 }
 
@@ -43,6 +45,11 @@
 i.fab {
     margin-right: 10px; /* Space between icons */
 }
+
+.App > hr {
+    width: 100%;
+}
+
 
 @media (max-width: 600px) {
     .footer {

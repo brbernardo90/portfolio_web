@@ -1,0 +1,95 @@
+ /* .App { */
+  /* align-content: center; */
+  /* display: flex; */
+  /* flex-direction: column; */
+  
+  /* align-content: center; */
+ /* } */
+ 
+ .resume {
+    max-width: 1200px; 
+    display: flex;
+    flex-direction: column;
+    /* max-width: 800px;  */
+    /* margin: 0 auto; */
+    
+
+    /* margin: 20px auto; */
+    /* padding: 20px; */
+     /* box-shadow: 0 4px 8px rgba(0,0,0,0.1);  
+      */
+ }  
+
+
+
+.section {
+    display: flex;
+    justify-content: space-around;
+}
+
+.section h2 {
+    color: #333;
+    font-size: 24px;
+} 
+
+.job, .education {
+    display: flex;
+}
+
+
+.section_name h2 {
+    margin-top: -4px;
+    width: 100px;
+    text-align: left;
+}
+
+.dates {
+    font-weight: bold;
+    color: #666;
+    width: 120px;
+    text-align: left;
+}
+
+.title, .degree {
+    font-weight: bold;
+    color: #333;
+    align-self: flex-start;
+
+}
+
+p {
+    color: #666;
+    line-height: 1.6; 
+    max-width: 400px;
+    text-align: justify;
+} 
+
+.job_description, .education_description {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+
+
+
+/*
+
+.job, .education {
+    border-top: 1px solid #ccc;
+    padding: 20px 0;
+}
+
+
+
+
+.title, .degree {
+    font-weight: bold;
+    color: #333;
+    margin-top: 5px;
+}
+
+p {
+    color: #666;
+    line-height: 1.6; 
+}  */
