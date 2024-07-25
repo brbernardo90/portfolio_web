@@ -102,6 +102,17 @@ hr {
     margin-bottom: 10px;
 }
 
+@media (max-width: 600px) {
+    .section {
+        flex-direction: column; /* Stack sections vertically on small screens */
+        align-items: center;
+    }
+
+    .job {
+        flex-direction: column; /* Stack sections vertically on small screens */
+    }
+}
+
 /*
 
 .job, .education {

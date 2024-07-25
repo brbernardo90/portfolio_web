@@ -170,6 +170,157 @@ const Resume = () => {
                         </div>
                     </div>
                 </div>
+                <hr/>
+                <div className="section">
+                <div className='section_name'><h2>Certifications</h2></div>
+                    <div className="educations">
+                        <div className="education">
+                            <div className='photo_period'>
+                                <div className="photo">
+                                    <img 
+                                        src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/768px-Microsoft_logo.svg.png' 
+                                        width='50px'
+                                        height='30px'
+  
+                                    />                    
+                                </div>
+                                
+                                <div className="dates">Jun 2024</div>
+                            </div>
+                            
+                            <div className='education_description'>
+                                <div className="degree">Microsoft Certified: Azure AI Fundamentals</div>
+                                <p>Microsoft - Credential ID B032A0209D1A8A10</p>
+                            </div>
+                        </div>
+                        <div className="education">
+                            <div className='photo_period'>
+                                <div className="photo">
+                                    <img 
+                                        src='https://bstqb.online/img/logo/bstqb-cor-500.png' 
+                                        width='50px'
+                                        height='30px'
+  
+                                    />                    
+                                </div>
+                                
+                                <div className="dates">Mar 2015</div>
+                            </div>
+                        
+                            <div className='education_description'>
+                            <div className="degree"> CTFL – Certified Tester Foundation Level   <span>by</span><a href='https://bstqb.online/'> BSTQB</a></div>
+                            <p>Computer Science.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div className="section">
+                <div className='section_name'><h2>Volunteering</h2></div>
+                    <div className="educations">
+                        <div className="education">
+                            <div className='photo_period'>
+                                <div className="photo">
+                                    <img 
+                                        src='https://storage.googleapis.com/atados-v3/user-uploaded/images/0fc13b94-0371-40a9-ab45-7a7149e7a5e3.png' 
+                                        width='50px'
+                                        height='30px'
+  
+                                    />                    
+                                </div>
+                                
+                                <div className="dates">01/2014 - 07/2014</div>
+                            </div>
+                        
+                            <div className='education_description'>
+                            <div className="degree">WebDeveloper & Fundraising - Fundacion Faidela (Argentina), Universidad ASTRAL (Chile) e Centro Integral Warmi (Bolivia)</div>
+                            <p>Development of websites with Wordpress and Blogger;
+
+School activities with children and teenagers.
+
+Fundraising at local businesses and universities;
+
+Production of advertising material;
+
+Planning and execution of informative workshops.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div className="section">
+                <div className='section_name'><h2>Publications</h2></div>
+                    <div className="educations">
+                        <div className="education">
+                            <div className='photo_period'>
+                                <div className="photo">
+                                    <img 
+                                        src='https://propor2024.citius.gal/wp-content/uploads/2024/02/logoPropor.png' 
+                                        width='50px'
+                                        height='30px'
+  
+                                    />                    
+                                </div>
+                                
+                                <div className="dates">Mar 2024</div>
+                            </div>
+                            
+                            <div className='education_description'>
+                                <div className="degree">A Speech-Driven Talking Head based on a Two-Stage Generative Framework</div>
+                                <p><a href='https://aclanthology.org/2024.propor-1.64/' >Association for Computational Lingustics</a></p>
+                                <p> Speech-driven facial animation, a technique employing speech signals as input, aims to generate realistic and expressive talking head animations. Despite advancements in talking head synthesis methods, challenges persist in terms of achieving precise control, robust generalization, and adaptability to various scenarios and speaker characteristics. Additionally, the majority of existing approaches are primarily tailored for a restricted range of languages, with English being the predominant focus. <a href='https://brbernardo90.github.io/bpsdth/' > More information. </a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr/>
+                <div className="section">
+                <div className='section_name'><h2>Languages</h2></div>
+                    <div className="educations">
+                        <div className="education">
+                            <div className='photo_period'>
+                                <div className="photo">
+                  
+                                </div>
+                                
+                                <div className="dates"></div>
+                            </div>
+                            
+                            <div className='education_description'>
+                                <div className="degree">English</div>
+                                <p>Professional working proficiency.</p>
+                            </div>
+                        </div>
+                        <div className="education">
+                            <div className='photo_period'>
+                                <div className="photo">
+                   
+                                </div>
+                                
+                                <div className="dates"></div>
+                            </div>
+                        
+                            <div className='education_description'>
+                            <div className="degree">Portuguese</div>
+                            <p>Native or bilingual proficiency.</p>
+                        </div>
+                        </div>
+                        <div className="education">
+                            <div className='photo_period'>
+                                <div className="photo">
+                   
+                                </div>
+                                
+                                <div className="dates"></div>
+                            </div>
+                        
+                            <div className='education_description'>
+                            <div className="degree">Spanish</div>
+                            <p>Professional working proficiency.</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     );
