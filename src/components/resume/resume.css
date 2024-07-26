@@ -108,9 +108,12 @@ hr {
         align-items: center;
     }
 
-    .job {
+    .job, .education {
         flex-direction: column; /* Stack sections vertically on small screens */
     }
+
+
+
 }
 
 /*
