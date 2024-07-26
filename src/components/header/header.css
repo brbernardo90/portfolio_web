@@ -59,7 +59,7 @@ h1 {
 @media (max-width: 770px) {
     .header {
         flex-direction: column; /* Stack sections vertically on small screens */
-        width: 100%;
+        /* width: 100%; */
     }
 
     .navbar {

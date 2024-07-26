@@ -67,7 +67,7 @@ i.fab {
 @media (max-width: 770px) {
     .footer {
         flex-direction: column; /* Stack sections vertically on small screens */
-        width: 100%;
+        /* width: 100%; */
     }
 
     .footer-content {

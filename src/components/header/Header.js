@@ -13,9 +13,9 @@ const Header = () => {
             </div>
             <nav className="navbar">
                 <Link to="/resume">Resume</Link>
-                <Link to="/skill">Skills</Link>
+                {/* <Link to="/skill">Skills</Link> */}
                 <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                {/* <Link to="/contact">Contact</Link> */}
             </nav>
         </div>
     );

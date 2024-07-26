@@ -20,45 +20,72 @@
 
 .buttons-container {
     display: flex;
-    justify-content: space-around;
-    width: 100%;
+    justify-content: center;
+    margin-right: 3px;
+    /* width: 100%;
+    margin-right: -20px */
 }
 
 .btn {
-    padding: 10px 20px;
+    padding: 0px 10px;
     border: none;
-    border-radius: 20px;
-    font-size: 16px;
     cursor: pointer;
     outline: none;
     color: white;
     background-color: #ff7043; /* Placeholder color */
+    height: 28px;
 }
 
-.btn.resume { background-color: #fbc02d; } /* Yellow */
-.btn.projects { background-color: #f44336; } /* Red */
-.btn.contact { background-color: #29b6f6; } /* Light blue */
+.btn-resume { 
+    background-color: goldenrod;
+    margin-right: 4px;
+    display: block;
+    flex-direction: row;
+    
+ } /* Yellow */
+.btn-projects { 
+    background-color: darkred;
+ } /* Red */
+.btn-contact { 
+    background-color: #29b6f6; 
+} /* Light blue */
 
-button > a {
+button a {
     text-decoration: none;  /* Removes the underline from the links */
     color: white;            /* Sets the text color */
-    margin: 0 10px;         /* Provides spacing between the links */
-    font-size: 18px;        /* Set the font size */
+    /* margin: 0 10px;         Provides spacing between the links */
+    font-size: 12px;        /* Set the font size */
     display: inline-block;  /* Allows transform to work properly */
     transition: transform 0.1s ease; /* Smooth transition for scaling */
     transform-origin: center; /* Ensures the scaling is centered */
+    font-weight: bold;
+    letter-spacing: 2px;
 }
 
 /* Changes when hovering over the links */
-button > a:hover {
+button a:hover {
     transform: scale(1.1); /* Scales up the font size by 10% */
     /* Optional: Add a font-weight change if you want it bolder */
     font-weight: bold;
 }
 
+.contact-section {
+    display: flex;
+    margin-right: 10px;
+}
+
+.contact-section a:last-child{
+    margin-left: 4px;
+}
+
+.button-contact {
+    display: flex;
+    margin: 20px;
+}
+
 @media (max-width: 770px) {
     .profile-container {
         flex-direction: column; /* Stack sections vertically on small screens */
-        width: 100%;
+        /* width: 100%; */
     }
 }
