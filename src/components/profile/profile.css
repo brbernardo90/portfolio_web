@@ -56,7 +56,7 @@ button > a:hover {
     font-weight: bold;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 770px) {
     .profile-container {
         flex-direction: column; /* Stack sections vertically on small screens */
         width: 100%;

@@ -7,7 +7,7 @@
  /* } */
  
  .resume {
-    max-width: 1200px; 
+    /* max-width: 1200px;  */
     display: flex;
     flex-direction: column;
     /* max-width: 800px;  */
@@ -102,7 +102,7 @@ hr {
     margin-bottom: 10px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 770px) {
     .section {
         flex-direction: column; /* Stack sections vertically on small screens */
         align-items: center;

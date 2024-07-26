@@ -58,8 +58,13 @@ i.fab {
     width: 100%;
 }
 
+.footer-section h4 {
+    /* color: goldenrod; */
+    margin-bottom: 10px;
+}
 
-@media (max-width: 600px) {
+
+@media (max-width: 770px) {
     .footer {
         flex-direction: column; /* Stack sections vertically on small screens */
         width: 100%;
