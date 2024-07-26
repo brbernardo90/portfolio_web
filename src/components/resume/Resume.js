@@ -273,7 +273,7 @@ Planning and execution of informative workshops.</p>
                         </div>
                     </div>
                 </div>
-                <hr/>
+                <hr/> 
                 <div className="section">
                 <div className='section_name'><h2>Languages</h2></div>
                     <div className="educations">
