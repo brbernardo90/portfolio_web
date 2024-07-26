@@ -62,9 +62,15 @@ i.fab {
 @media (max-width: 600px) {
     .footer {
         flex-direction: column; /* Stack sections vertically on small screens */
+        width: 100%;
     }
 
     .footer-content {
         flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        align-items: center;
     }
 }

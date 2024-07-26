@@ -59,5 +59,6 @@ button > a:hover {
 @media (max-width: 600px) {
     .profile-container {
         flex-direction: column; /* Stack sections vertically on small screens */
+        width: 100%;
     }
 }
