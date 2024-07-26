@@ -6,8 +6,8 @@
 }
 
 .image-container img {
-    width: 300px; /* Adjust size as needed */
-    height: 300px;
+    width: 450px; /* Adjust size as needed */
+    height: 450px;
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image covers the space without being distorted */
 }
@@ -15,7 +15,7 @@
 .text-container {
     max-width: 600px; /* Adjust width as needed */
     margin: 20px;
-    text-align: center;
+    /* text-align: center; */
 }
 
 .buttons-container {
@@ -81,6 +81,11 @@ button a:hover {
 .button-contact {
     display: flex;
     margin: 20px;
+}
+.hello {
+    font-size: 50px;
+    text-align: left;
+    color: black;
 }
 
 @media (max-width: 770px) {
