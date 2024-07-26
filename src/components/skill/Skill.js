@@ -1,5 +1,5 @@
 import React from 'react';
-import './skill.css'; 
+// import './skill.css'; 
 import SkillBar from './SkillBar';
 
 const Skill = () => {

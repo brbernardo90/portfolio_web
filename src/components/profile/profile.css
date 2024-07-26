@@ -98,4 +98,13 @@ button a:hover {
         width: 300px; /* Adjust size as needed */
         height: 300px;
     }
+
+    .button-contact {
+        flex-direction: column;
+    }       
+    
+    .contact-section {
+        justify-content: center;
+        margin-top: 7px;
+    }
 }
