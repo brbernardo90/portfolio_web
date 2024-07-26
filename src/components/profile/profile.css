@@ -93,4 +93,9 @@ button a:hover {
         flex-direction: column; /* Stack sections vertically on small screens */
         /* width: 100%; */
     }
+
+    .image-container img {
+        width: 300px; /* Adjust size as needed */
+        height: 300px;
+    }
 }
