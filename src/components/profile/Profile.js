@@ -1,4 +1,6 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './profile.css';
 
 const Profile = () => {
@@ -19,9 +21,9 @@ const Profile = () => {
                 </div>
                 <div className='button-contact'>
                     <div className="buttons-container">
-                        <button className="btn btn-resume"><a href='/resume' > RESUME </a></button>
+                        <button className="btn btn-resume"><Link to="/resume">RESUME</Link></button>
                         {/* <button className="btn skills">Skills</button> */}
-                        <button className="btn btn-projects"><a href='/projects' > PROJECTS </a></button>
+                        <button className="btn btn-projects"><Link to="/projects">PROJECTS</Link></button>
                         {/* <button className="btn contact">Contact</button> */}
                     </div>
 
