@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter } from "react-router-dom";
 
 import logo from './logo.svg';
 import './App.css';
@@ -18,19 +19,22 @@ function App() {
       //   <Footer></Footer>
       // </div>
 
-      <Router>
+      // <Router>
       <div className="App">
-        <Header />
-        <Routes>
-          <Route path="/" element={<Profile />} />
-          <Route path="/resume" element={<Resume />} />
-          <Route path="/skill" element={<Skill />} />
-          {/* <Route path="/projects" element={<Projects />} /> */}
-          {/* <Route path="/contact" element={<Contact />} /> */}
-        </Routes>
-        <Footer />
-      </div>
-</Router>
+         
+
+          <Header />
+         <Routes>
+           <Route path="/" element={<Profile />} />
+           <Route path="/resume" element={<Resume />} />
+           {/* <Route path="/skill" element={<Skill />} /> */}
+           {/* <Route path="/projects" element={<Projects />} /> */}
+           {/* <Route path="/contact" element={<Contact />} /> */}
+         </Routes>
+
+         <Footer />
+       </div>
+      // </Router>
 
 
   );
