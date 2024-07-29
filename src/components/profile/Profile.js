@@ -18,7 +18,7 @@ const Profile = () => {
                     <h2>My name is Brayan Bernardo</h2>
                     <p> I'm a curious software engineer with a background in <b>Machine Learning Research</b>, <b>Full Stack Web Development</b>, and <b>Quality Assurance</b>. </p>
                     <p> With a strong foundation in software development and artificial intelligence, I'm passionate about using my expertise to solve real-world challenges. My career has been a diverse adventure, contributing to impactful projects in the tech industry, academia, and social movements, each enriching my journey with valuable lessons and experiences. 
-                        <a href="cv_brayanbernardo.pdf" download="cv_brayanbernardo">
+                        <a href="cv_brayanbernardo.pdf" target="_blank" rel="noopener noreferrer">
                             Download my resume. 
                         </a>
                     </p>

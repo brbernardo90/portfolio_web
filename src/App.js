@@ -9,6 +9,7 @@ import Header from './components/header/Header';
 import Profile from './components/profile/Profile';
 import Footer from './components/footer/Footer';
 import Resume from './components/resume/Resume';
+import Project from './components/project/Project';
 import ScrollToTop from "./components/scroll_top/ScrollToTop";
 
 import Skill from './components/skill/Skill';
@@ -31,7 +32,7 @@ function App() {
           <Route path="/" element={<Profile />} />
           <Route path="/resume" element={<Resume />} />
            {/* <Route path="/skill" element={<Skill />} /> */}
-           {/* <Route path="/projects" element={<Projects />} /> */}
+           <Route path="/projects" element={<Project />} />
            {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
         <Footer />
