@@ -17,7 +17,11 @@ const Profile = () => {
                     <h1 className="hello">Hello <img width={'50px'} src = "waving-hand.svg" alt="My Happy SVG"/></h1>
                     <h2>My name is Brayan Bernardo</h2>
                     <p> I'm a curious software engineer with a background in <b>Machine Learning Research</b>, <b>Full Stack Web Development</b>, and <b>Quality Assurance</b>. </p>
-                    <p> With a strong foundation in software development and artificial intelligence, I'm passionate about using my expertise to solve real-world challenges. My career has been a diverse adventure, contributing to impactful projects in the tech industry, academia, and social movements, each enriching my journey with valuable lessons and experiences.</p>
+                    <p> With a strong foundation in software development and artificial intelligence, I'm passionate about using my expertise to solve real-world challenges. My career has been a diverse adventure, contributing to impactful projects in the tech industry, academia, and social movements, each enriching my journey with valuable lessons and experiences. 
+                        <a href="cv_brayanbernardo.pdf" download="cv_brayanbernardo">
+                            Download my resume. 
+                        </a>
+                    </p>
                 </div>
                 <div className='button-contact'>
                     <div className="buttons-container">

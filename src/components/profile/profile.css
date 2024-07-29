@@ -88,6 +88,13 @@ button a:hover {
     color: black;
 }
 
+.pdf_ico_profile {
+    /* padding-top: 30px; Space between icon and text */
+    padding-left: 10px;
+    margin-top: 0px;
+    width: 25px;
+}
+
 @media (max-width: 770px) {
     .profile-container {
         flex-direction: column; /* Stack sections vertically on small screens */
@@ -108,3 +115,4 @@ button a:hover {
         margin-top: 7px;
     }
 }
+
