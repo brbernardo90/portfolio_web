@@ -4,11 +4,20 @@ import './resume.css';
 const Resume = () => {
     return (
         <div className="resume">
-            <div className='title_page'>
-                <h1>Resume</h1>
-            </div>
             <div className='sections'>
-                <hr></hr>
+                <div className='sections_header'>
+                    <div className='title_page'>
+                        <h1>Resume</h1>
+                    </div>
+                    <div class="resume-download">
+                        <a href="cv.pdf" download="Brayan_Bernardo_Resume">
+                            
+                            <img className='pdf_icon' src='pdf-svgrepo-com.svg' /> 
+
+                        </a>
+                    </div>
+                    <hr></hr>
+                </div>
                 <div className="section">
 
                     <div className='section_name'><h2>Work <br/> Experience</h2></div>

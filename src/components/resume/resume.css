@@ -25,6 +25,11 @@
     justify-content: space-around;
 }
 
+.sections {
+    display: flex;
+    flex-direction: column;
+}
+
 .section h2 {
     color: #333;
     font-size: 24px;
@@ -75,7 +80,7 @@ p {
 hr {
     margin-top: 20px;
     margin-bottom: 40px;
-    width: 80%;
+    width: 100%;
     /* padding: 10px 0px 10px 0px; */
 }
 
@@ -98,6 +103,37 @@ hr {
     object-fit: cover; 
     object-position: 0% 20%;
     margin-bottom: 10px;
+}
+
+.sections_header{
+    width: 70%;
+    align-self: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.resume-download {
+    text-align: right; /* Center text */
+}
+.resume-download a {
+    text-decoration: none; /* Removes underline from links */
+    color: #007BFF; /* Sets the color of the link */
+    font-size: 18px; /* Sets font size */
+    /* display: inline-block; */
+    /* border: 2px solid #007BFF; Border color matching the link */
+    /* padding: 10px 20px; Padding around the text */
+    /* border-radius: 5px; Rounded corners for the border */
+    /* transition: all 0.3s ease; Smooth transition for hover effects */
+}
+.resume-download a:hover {
+    /* background-color: #007BFF; Background color on hover */
+    /* color: white; Text color on hover */
+}
+
+.pdf_icon {
+    padding-top: 30px; /* Space between icon and text */
+    width: 40px;
+
 }
 
 @media (max-width: 770px) {
