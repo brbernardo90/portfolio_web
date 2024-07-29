@@ -10,7 +10,7 @@ const Resume = () => {
                         <h1>Resume</h1>
                     </div>
                     <div class="resume-download">
-                        <a href="cv.pdf" download="Brayan_Bernardo_Resume">
+                        <a href="cv_brayanbernardo.pdf" download="cv_brayanbernardo">
                             
                             <img className='pdf_icon' src='pdf-svgrepo-com.svg' /> 
 
