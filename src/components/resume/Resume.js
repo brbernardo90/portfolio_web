@@ -10,7 +10,7 @@ const Resume = () => {
                         <h1>Resume</h1>
                     </div>
                     <div class="resume-download">
-                        <a href="cv_brayanbernardo.pdf" download="cv_brayanbernardo">
+                        <a href="cv_brayanbernardo.pdf" target="_blank" rel="noopener noreferrer">
                             
                             <img className='pdf_icon' src='pdf-svgrepo-com.svg' /> 
 
@@ -27,7 +27,7 @@ const Resume = () => {
                             <div className='photo_period'>
                                 <div className="photo">
                                     <img 
-                                        src='https://hiaac.unicamp.br/wp-content/themes/hiaac_portal/assets/images/logo.svg' 
+                                        src='logos/hiaac.png' 
                                         width='50px'
                                         height='30px'  
                                     />
@@ -55,7 +55,7 @@ const Resume = () => {
                             <div className='photo_period'>
                                 <div className="photo">
                                     <img 
-                                        src='https://media.licdn.com/dms/image/D4D0BAQElEO0UAGnXMg/company-logo_200_200/0/1719833786365/caiena_tecnologia_e_design_logo?e=1729728000&v=beta&t=odAuw8kDsx0vXzHqpZ20Ke0mJ7pz8y8WI2Up-xybE8w' 
+                                        src='logos/caiena.jpeg' 
                                         width='50px'
                                         height='30px'
   
@@ -84,7 +84,7 @@ const Resume = () => {
                              <div className='photo_period'>
                                 <div className="photo">
                                     <img 
-                                        src='https://www.dieboldnixdorf.com/-/media/diebold/images/global/logo/dn-color-logo.svg' 
+                                        src='logos/dn.svg' 
                                         
                                         
                                     />                    
@@ -110,7 +110,7 @@ const Resume = () => {
                             <div className='photo_period'>
                                 <div className="photo">
                                     <img 
-                                        src='https://cdn.prod.website-files.com/64a2d32d985e1e3d89959e6a/64a41aa475d7602abf97e6e3_Sofist-Horizontal-RGB-p-500.png' 
+                                        src='logos/sofist.png' 
                                         width='50px'
                                         height='30px'
                                         // style='object-position: -10% 20%;'
@@ -143,7 +143,7 @@ const Resume = () => {
                             <div className='photo_period'>
                                 <div className="photo">
                                     <img 
-                                        src='http://www.unicamp.br/unicamp/sites/default/files/styles/large/public/Logo_Unicamp__0.jpg?itok=sO9EjTTS' 
+                                        src='logos/unicamp.jpg' 
                                         width='50px'
                                         height='30px'
   
@@ -162,7 +162,7 @@ const Resume = () => {
                             <div className='photo_period'>
                                 <div className="photo">
                                     <img 
-                                        src='https://upload.wikimedia.org/wikipedia/commons/2/2a/Ufscar-logo.png' 
+                                        src='logos/ufscar.png' 
                                         width='50px'
                                         height='30px'
   
@@ -187,7 +187,7 @@ const Resume = () => {
                             <div className='photo_period'>
                                 <div className="photo">
                                     <img 
-                                        src='https://upload.wikimedia.org/wikipedia/commons/thumb/4/44/Microsoft_logo.svg/768px-Microsoft_logo.svg.png' 
+                                        src='logos/microsoft.png' 
                                         width='50px'
                                         height='30px'
   
@@ -206,7 +206,7 @@ const Resume = () => {
                             <div className='photo_period'>
                                 <div className="photo">
                                     <img 
-                                        src='https://bstqb.online/img/logo/bstqb-cor-500.png' 
+                                        src='logos/social-bstqb.png' 
                                         width='50px'
                                         height='30px'
   
@@ -231,7 +231,7 @@ const Resume = () => {
                             <div className='photo_period'>
                                 <div className="photo">
                                     <img 
-                                        src='https://storage.googleapis.com/atados-v3/user-uploaded/images/0fc13b94-0371-40a9-ab45-7a7149e7a5e3.png' 
+                                        src='logos/aiesec.png' 
                                         width='50px'
                                         height='30px'
   
@@ -264,7 +264,7 @@ Planning and execution of informative workshops.</p>
                             <div className='photo_period'>
                                 <div className="photo">
                                     <img 
-                                        src='https://propor2024.citius.gal/wp-content/uploads/2024/02/logoPropor.png' 
+                                        src='logos/propor.png' 
                                         width='50px'
                                         height='30px'
   
