@@ -13,6 +13,10 @@
     object-fit: cover; /* Ensures the image covers the space without being distorted */
 }
 
+.info-container {
+    animation: 3s linear infinite rotate-core;
+}
+
 .text-container {
     max-width: 600px; /* Adjust width as needed */
     margin: 20px;
